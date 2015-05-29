@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #696764;
+  background-color: #f5f2eb;
+  font: 1em/1 "微软雅黑", "宋体", Arial;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.container-title {
+  position: relative;
+  height: 176px;
+  color: #81728a;
+  background-color: #fff;
+}
+.page-title {
+  position: absolute;
+  left: calc(50% - 500px);
+  width: 1000px;
+  margin: 0;
+  padding: 60px 0;
+  text-align: center;
+  font-size: 3.5em;
+}
+section {
+  margin: auto;
+  width: 100%;
+  height: 200px;
+  padding: 10px 20%;
+  background-color: #72a9aa;
+}
+section div {
+  float: left;
+}
+section div.left-content {
+  width: 100%;
+}
+section div.right-content {
+  width: 0;
+}
+section div > span {
+  display: block;
+  padding-bottom: 10px;
+}
+section div ul li {
+  list-style: decimal;
+}
+.icon-pencil,
+.icon-css3,
+.icon-location {
+  font-size: inherit;
+  padding-left: 8px;
+  top: 3px;
+  display: inline-block;
+  position: relative;
+}
+.sectionOne {
+  background-color: #72a9aa;
+}
+.sectionTwo {
+  background-color: #fff;
+}
+.sectionThree {
+  height: 350px;
+  background-color: #72a9aa;
+}
+.sectionFour {
+  background-color: #fff;
+}
+@media only screen and (max-width: 760px) {
+  .container-title {
+    height: 150px;
+  }
+  .container-title .page-title {
+    font-size: 2.5em;
+  }
+  section {
+    padding: 8px 8%;
+  }
+  .sectionThree {
+    height: 500px;
+  }
+}
