@@ -3,10 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-body,
-html {
-  overflow-x: hidden;
-}
 body {
   margin: 0;
   padding: 0;
@@ -28,8 +24,6 @@ body {
   position: relative;
   left: 0;
   right: 0;
-  width: 100%;
-  overflow-x: hidden;
   background-color: #fff;
 }
 .container-title {
@@ -39,8 +33,7 @@ body {
 }
 .page-title {
   position: absolute;
-  left: calc(50% - 500px);
-  width: 1000px;
+  width: 100%;
   margin: 0;
   padding: 60px 0;
   text-align: center;
