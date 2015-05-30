@@ -8,6 +8,7 @@ body {
   color: #2b4051;
   background-color: #f5f2eb;
   font: 1em/1 "微软雅黑", "宋体", Arial;
+  overflow-x: hidden;
 }
 .hide {
   display: none;
