@@ -1,0 +1,88 @@
+
+*,
+*::before,
+*::after
+  box-sizing border-box
+body
+  margin 0
+  padding 0
+  color #2b4051
+  background-color #f5f2eb
+  font 1.2em/1  "微软雅黑","宋体",Arial
+.hide
+  display none
+.clearfix:after
+  content "."
+  display block
+  height 0
+  clear both
+  visibility hidden
+.container
+  position relative
+  left 0
+  right 0
+  background-color #fff
+.container-title
+  position relative
+  height 162px
+  background-color #fff
+
+.page-title
+  position absolute
+  width 100%
+  margin 0
+  padding 60px 0
+  text-align center
+  font-size 3.5em
+
+section
+  margin auto
+  width 100%
+  min-height 150px
+  float left
+  padding 10px 20%
+  background-color lighten(rgb(98, 159, 161),10%)
+  ul
+    li
+      list-style decimal
+.icon-pencil
+.icon-css3
+.icon-location
+.icon-eyes
+.icon-users
+.icon-gift
+.icon-mail
+  font-size inherit
+  padding-left 8px
+  top 3px
+  display inline-block
+  position relative
+section.hr-title
+  min-height 20px !important
+  background-color #fff
+  span
+    display inline-block
+    border-top 1px solid #e8ebeb
+    width 100%
+.sectionOne
+.sectionTwo
+.sectionThree
+.sectionFour
+.sectionFive
+.sectionSix
+.sectionSeven
+  background-color #fff
+
+.emial
+  font-weight bolder
+
+@media screen and (max-width 760px)
+  body
+    font 1em/1  "微软雅黑","宋体",Arial
+  .container-title
+    height 80px
+    .page-title
+      font-size 2.5em
+      padding 27px 0
+  section
+    padding 0 8% 8px
