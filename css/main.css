@@ -100,7 +100,7 @@ section div ul li {
     padding: 8px 8%;
   }
   .sectionThree {
-    height: 370px;
+    min-height: 370px;
   }
   .sectionFive,
   .sectionFour {
