@@ -89,6 +89,11 @@ section div ul li {
 .emial {
   font-weight: bolder;
 }
+@media screen and (max-width: 480px) {
+  .sectionThree {
+    min-height: 420px;
+  }
+}
 @media screen and (max-width: 760px) {
   .container-title {
     height: 150px;
@@ -100,7 +105,7 @@ section div ul li {
     padding: 8px 8%;
   }
   .sectionThree {
-    min-height: 370px;
+    min-height: 380px;
   }
   .sectionFive,
   .sectionFour {
