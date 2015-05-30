@@ -3,12 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
+body,
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   color: #2b4051;
   background-color: #f5f2eb;
   font: 1em/1 "微软雅黑", "宋体", Arial;
-  overflow-x: hidden;
 }
 .hide {
   display: none;
@@ -25,7 +28,7 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  overflow-x: hidden;
   background-color: #fff;
 }
 .container-title {
@@ -46,6 +49,7 @@ section {
   margin: auto;
   width: 100%;
   height: 200px;
+  float: left;
   padding: 10px 20%;
   background-color: #72a9aa;
 }
