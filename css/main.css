@@ -9,6 +9,9 @@ body {
   background-color: #f5f2eb;
   font: 1em/1 "微软雅黑", "宋体", Arial;
 }
+.hide {
+  display: none;
+}
 .clearfix:after {
   content: ".";
   display: block;
