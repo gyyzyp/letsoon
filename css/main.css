@@ -73,10 +73,6 @@ section div ul li {
   display: inline-block;
   position: relative;
 }
-.sectionThree {
-  height: 350px;
-  background-color: #fff;
-}
 .sectionOne,
 .sectionTwo,
 .sectionThree,
