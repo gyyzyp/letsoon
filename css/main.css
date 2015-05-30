@@ -42,7 +42,7 @@ body {
 section {
   margin: auto;
   width: 100%;
-  height: 200px;
+  min-height: 200px;
   float: left;
   padding: 10px 20%;
   background-color: #72a9aa;
@@ -64,7 +64,9 @@ section div ul li {
 .icon-css3,
 .icon-location,
 .icon-eyes,
-.icon-users {
+.icon-users,
+.icon-gift,
+.icon-mail {
   font-size: inherit;
   padding-left: 8px;
   top: 3px;
@@ -79,8 +81,13 @@ section div ul li {
 .sectionTwo,
 .sectionThree,
 .sectionFour,
-.sectionFive {
+.sectionFive,
+.sectionSix,
+.sectionSeven {
   background-color: #fff;
+}
+.emial {
+  font-weight: bolder;
 }
 @media screen and (max-width: 760px) {
   .container-title {
@@ -92,10 +99,10 @@ section div ul li {
   section {
     padding: 8px 8%;
   }
-  .sectionThree,
-  .sectionFive {
-    height: 380px;
+  .sectionThree {
+    height: 370px;
   }
+  .sectionFive,
   .sectionFour {
     height: 200px;
   }
