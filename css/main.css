@@ -5,7 +5,7 @@
 }
 body {
   margin: 0;
-  color: #696764;
+  color: #2b4051;
   background-color: #f5f2eb;
   font: 1em/1 "微软雅黑", "宋体", Arial;
 }
@@ -24,7 +24,6 @@ body {
 .container-title {
   position: relative;
   height: 176px;
-  color: #81728a;
   background-color: #fff;
 }
 .page-title {
@@ -68,20 +67,18 @@ section div ul li {
   display: inline-block;
   position: relative;
 }
-.sectionOne {
-  background-color: #fff;
-}
-.sectionTwo {
-  background-color: #fff;
-}
 .sectionThree {
   height: 350px;
   background-color: #fff;
 }
-.sectionFour {
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive {
   background-color: #fff;
 }
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .container-title {
     height: 150px;
   }
@@ -91,7 +88,11 @@ section div ul li {
   section {
     padding: 8px 8%;
   }
-  .sectionThree {
-    height: 500px;
+  .sectionThree,
+  .sectionFive {
+    height: 400px;
+  }
+  .sectionFour {
+    height: 335px;
   }
 }
