@@ -8,7 +8,7 @@ body {
   padding: 0;
   color: #2b4051;
   background-color: #f5f2eb;
-  font: 1em/1 "微软雅黑", "宋体", Arial;
+  font: 1.2em/1 "微软雅黑", "宋体", Arial;
 }
 .hide {
   display: none;
@@ -42,7 +42,7 @@ body {
 section {
   margin: auto;
   width: 100%;
-  min-height: 200px;
+  min-height: 150px;
   float: left;
   padding: 10px 20%;
   background-color: #72a9aa;
@@ -90,6 +90,9 @@ section div ul li {
   font-weight: bolder;
 }
 @media screen and (max-width: 760px) {
+  body {
+    font-size: 1em/1;
+  }
   .container-title {
     height: 150px;
   }
@@ -99,16 +102,4 @@ section div ul li {
   section {
     padding: 8px 8%;
   }
-  .sectionThree {
-    min-height: 380px;
-  }
-  .sectionFive,
-  .sectionFour {
-    height: 200px;
-  }
-@media screen and (max-width: 480px) {
-    .sectionThree {
-      min-height: 420px;
-    }
-}
 }
