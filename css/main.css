@@ -28,7 +28,7 @@ body {
 }
 .container-title {
   position: relative;
-  height: 176px;
+  height: 162px;
   background-color: #fff;
 }
 .page-title {
@@ -72,6 +72,12 @@ section div ul li {
   top: 3px;
   display: inline-block;
   position: relative;
+}
+span.hr-title {
+  display: inline-block;
+  border-top: 1px solid #e8ebeb;
+  width: 60%;
+  margin-left: 20%;
 }
 .sectionOne,
 .sectionTwo,
