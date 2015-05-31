@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   color: #2b4051;
-  background-color: #f5f2eb;
+  background-color: #fff;
   font: 1.2em/1 "微软雅黑", "宋体", Arial;
 }
 .hide {
@@ -114,7 +114,7 @@ section.hr-title span {
   }
   .container-title .page-title {
     font-size: 2.5em;
-    padding: 38px 0;
+    padding: 42px 0 40px;
   }
   section {
     padding: 0 8% 8px;
@@ -130,5 +130,9 @@ section.hr-title span {
   .logo span {
     font-size: 0.9em;
     padding-top: 11px;
+  }
+  section.hr-title {
+    position: relative;
+    top: 5px;
   }
 }
